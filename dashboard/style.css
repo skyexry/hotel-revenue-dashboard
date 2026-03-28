@@ -258,9 +258,9 @@ body {
   border-radius: var(--radius);
   padding: 20px;
   position: relative;
-  height: 260px;                  /* fixed height — no overflow */
+  height: 180px;
 }
-.chart-box--tall    { height: 320px; }
+.chart-box--tall    { height: 240px; }
 .chart-box--heatmap { height: auto; overflow: hidden; }
 
 .chart-label {
