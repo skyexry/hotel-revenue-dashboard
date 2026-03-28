@@ -361,12 +361,17 @@ function renderHeatmap(cells) {
     return `rgba(${r},${g},${b},0.85)`;
   }
 
-  // Pre-compute fixed cell size from the canvas container (avoids per-cell callbacks)
+  // Fixed cell dimensions: derive width from container, fix height per row
   const container = document.getElementById('chart-heatmap')?.parentElement;
-  const containerW = container ? container.clientWidth  - 80  : 600;
-  const containerH = container ? container.clientHeight - 40  : 300;
-  const cellW = Math.max(4, containerW / months.length    - 2);
-  const cellH = Math.max(4, containerH / roomTypes.length - 2);
+  const containerW = container ? container.clientWidth - 100 : 600;
+  const CELL_H = 30; // fixed px per room-type row — never depends on container height
+
+  // Set canvas height explicitly so the chart box doesn't overflow
+  const canvas = document.getElementById('chart-heatmap');
+  if (canvas) canvas.style.height = (roomTypes.length * (CELL_H + 4) + 60) + 'px';
+
+  const cellW = Math.max(6, containerW / months.length - 2);
+  const cellH = CELL_H;
 
   const cfg = {
     type: 'matrix',
@@ -422,7 +427,9 @@ function renderHeatmap(cells) {
     },
   };
 
-  upsertChart('chart-heatmap', cfg);
+  // Matrix charts must always be rebuilt — in-place update doesn't work for this type
+  if (CHARTS['chart-heatmap']) { CHARTS['chart-heatmap'].destroy(); delete CHARTS['chart-heatmap']; }
+  if (canvas) CHARTS['chart-heatmap'] = new Chart(canvas, cfg);
 }
 
 // ── Pricing recommendations table ─────────────────────────────────────────────
@@ -464,26 +471,9 @@ function renderElasticity() {
 }
 
 // ── Chart upsert helper ───────────────────────────────────────────────────────
-// Update data in-place when the chart already exists (avoids destroy/recreate cost).
-// Only rebuilds from scratch when the chart is new or axis structure changed.
 function upsertChart(id, cfg) {
   const canvas = document.getElementById(id);
   if (!canvas) return;
-
-  const existing = CHARTS[id];
-  if (existing) {
-    // Swap datasets data + labels, then redraw — no DOM teardown
-    existing.data.labels = cfg.data.labels;
-    cfg.data.datasets.forEach((ds, i) => {
-      if (existing.data.datasets[i]) {
-        existing.data.datasets[i].data            = ds.data;
-        existing.data.datasets[i].backgroundColor = ds.backgroundColor;
-        existing.data.datasets[i].borderColor     = ds.borderColor ?? existing.data.datasets[i].borderColor;
-      }
-    });
-    existing.update('active');   // 'active' skips full layout recalc
-    return;
-  }
-
+  if (CHARTS[id]) { CHARTS[id].destroy(); delete CHARTS[id]; }
   CHARTS[id] = new Chart(canvas, cfg);
 }

@@ -169,8 +169,6 @@ body {
   display: flex;
   flex-direction: column;
   gap: 16px;
-  content-visibility: auto;       /* skip off-screen layout & paint */
-  contain-intrinsic-size: 0 400px;/* placeholder height while skipped */
 }
 
 .section-header {
@@ -260,15 +258,10 @@ body {
   border-radius: var(--radius);
   padding: 20px;
   position: relative;
-  min-height: 280px;
-  contain: layout style;          /* isolate box from rest of layout */
+  height: 260px;                  /* fixed height — no overflow */
 }
-
-.chart-box canvas {
-  will-change: transform;         /* promote to GPU compositing layer */
-}
-.chart-box--tall   { min-height: 320px; }
-.chart-box--heatmap { min-height: 360px; }
+.chart-box--tall    { height: 320px; }
+.chart-box--heatmap { height: auto; overflow: hidden; }
 
 .chart-label {
   font-size: 12px;
