@@ -2,6 +2,8 @@
 
 > An end-to-end BI platform that ingests hotel booking data, computes revenue KPIs, runs a dynamic pricing engine, and surfaces insights through an interactive dark-theme dashboard.
 
+**🔗 Live Demo: [https://skyexry.github.io/hotel-revenue-dashboard/](https://skyexry.github.io/hotel-revenue-dashboard/)**
+
 ---
 
 ## Background
@@ -128,7 +130,9 @@ Open **<http://localhost:8080/dashboard/index.html>** in your browser.
 
 ## Dashboard Preview
 
-![Dashboard](screenshot.png)
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-00d4aa?style=flat-square)](https://skyexry.github.io/hotel-revenue-dashboard/)
+
+![Dashboard](dashboard/screenshot.png)
 
 ---
 
