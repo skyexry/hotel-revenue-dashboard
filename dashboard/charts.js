@@ -287,9 +287,8 @@ function renderChannelRev(channels) {
   upsertChart('chart-channel-rev', cfg);
 }
 
-// ── Channel cancellation rate horizontal bar ──────────────────────────────────
+// ── Channel cancellation rate bar ────────────────────────────────────────────
 function renderChannelCancel(channels) {
-  // Sort descending by cancellation rate for clarity
   const sorted = [...channels].sort((a, b) => b.cancellation_rate - a.cancellation_rate);
   const cfg = {
     type: 'bar',
@@ -307,22 +306,21 @@ function renderChannelCancel(channels) {
       }],
     },
     options: {
-      indexAxis: 'y',
       responsive: true,
       maintainAspectRatio: false,
       plugins: {
         legend: { display: false },
         tooltip: {
-          callbacks: { label: ctx => `${ctx.parsed.x.toFixed(1)}%` },
+          callbacks: { label: ctx => `${ctx.parsed.y.toFixed(1)}%` },
         },
       },
       scales: {
-        x: {
+        x: { grid: { display: false } },
+        y: {
           grid: { color: '#2e3348' },
           max: 100,
           ticks: { callback: v => `${v}%` },
         },
-        y: { grid: { display: false } },
       },
     },
   };
@@ -474,6 +472,13 @@ function renderElasticity() {
 function upsertChart(id, cfg) {
   const canvas = document.getElementById(id);
   if (!canvas) return;
-  if (CHARTS[id]) { CHARTS[id].destroy(); delete CHARTS[id]; }
+  if (CHARTS[id]) {
+    CHARTS[id].destroy();
+    delete CHARTS[id];
+    // Reset canvas so stale width/height attributes don't pollute the next render
+    canvas.removeAttribute('width');
+    canvas.removeAttribute('height');
+    canvas.removeAttribute('style');
+  }
   CHARTS[id] = new Chart(canvas, cfg);
 }
