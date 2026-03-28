@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hotel Revenue Intelligence</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Chart.js + matrix plugin -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chartjs-chart-matrix@2.0.1/dist/chartjs-chart-matrix.min.js"></script>
+</head>
+<body>
+
+  <!-- ── Header ───────────────────────────────────────────────────────────── -->
+  <header class="header">
+    <div class="header-brand">
+      <span class="brand-dot"></span>
+      <span class="brand-name">Hotel Revenue Intelligence</span>
+    </div>
+    <div class="header-meta">
+      <span class="data-badge">Kaggle · 119,388 bookings · 2015–2017</span>
+    </div>
+  </header>
+
+  <!-- ── Filter Bar ────────────────────────────────────────────────────────── -->
+  <section class="filter-bar">
+    <div class="filter-group">
+      <label class="filter-label">Hotel Type</label>
+      <select id="filter-hotel" class="filter-select">
+        <option value="all">All Hotels</option>
+        <option value="City Hotel">City Hotel</option>
+        <option value="Resort Hotel">Resort Hotel</option>
+      </select>
+    </div>
+
+    <div class="filter-group">
+      <label class="filter-label">From</label>
+      <select id="filter-from" class="filter-select"></select>
+    </div>
+
+    <div class="filter-group">
+      <label class="filter-label">To</label>
+      <select id="filter-to" class="filter-select"></select>
+    </div>
+
+    <div class="filter-group filter-group--channels">
+      <label class="filter-label">Channels</label>
+      <div id="filter-channels" class="channel-pills"></div>
+    </div>
+
+    <button id="btn-reset" class="btn-reset">Reset</button>
+  </section>
+
+  <!-- ── Main content ──────────────────────────────────────────────────────── -->
+  <main class="main">
+
+    <!-- ── KPI Cards ─────────────────────────────────────────────────────── -->
+    <section class="section">
+      <div class="kpi-grid">
+        <div class="kpi-card" id="kpi-revpar">
+          <div class="kpi-label">RevPAR</div>
+          <div class="kpi-value" id="val-revpar">—</div>
+          <div class="kpi-meta">
+            <span class="kpi-delta" id="delta-revpar"></span>
+            <span class="kpi-sub">Revenue per available room</span>
+          </div>
+        </div>
+        <div class="kpi-card" id="kpi-adr">
+          <div class="kpi-label">ADR</div>
+          <div class="kpi-value" id="val-adr">—</div>
+          <div class="kpi-meta">
+            <span class="kpi-delta" id="delta-adr"></span>
+            <span class="kpi-sub">Avg daily rate (non-canceled)</span>
+          </div>
+        </div>
+        <div class="kpi-card" id="kpi-occ">
+          <div class="kpi-label">Occupancy Rate</div>
+          <div class="kpi-value" id="val-occ">—</div>
+          <div class="kpi-meta">
+            <span class="kpi-delta" id="delta-occ"></span>
+            <span class="kpi-sub">% of bookings fulfilled</span>
+          </div>
+        </div>
+        <div class="kpi-card" id="kpi-cancel">
+          <div class="kpi-label">Cancellation Rate</div>
+          <div class="kpi-value" id="val-cancel">—</div>
+          <div class="kpi-meta">
+            <span class="kpi-delta" id="delta-cancel" data-invert></span>
+            <span class="kpi-sub">% of bookings canceled</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Trend Chart ───────────────────────────────────────────────────── -->
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">Monthly Trend — RevPAR &amp; ADR</h2>
+        <span class="section-note">Dual-axis · dashed = ADR</span>
+      </div>
+      <div class="chart-box chart-box--tall">
+        <canvas id="chart-trend"></canvas>
+      </div>
+    </section>
+
+    <!-- ── Channel Analysis ──────────────────────────────────────────────── -->
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">Distribution Channel Analysis</h2>
+      </div>
+      <div class="two-col">
+        <div class="chart-box">
+          <div class="chart-label">Total Revenue by Channel</div>
+          <canvas id="chart-channel-rev"></canvas>
+        </div>
+        <div class="chart-box">
+          <div class="chart-label">Cancellation Rate by Channel (%)</div>
+          <canvas id="chart-channel-cancel"></canvas>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── Room Type Heatmap ──────────────────────────────────────────────── -->
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">Room Type × Month · ADR Heatmap</h2>
+        <span class="section-note">Color intensity = Average Daily Rate</span>
+      </div>
+      <div class="chart-box chart-box--heatmap">
+        <canvas id="chart-heatmap"></canvas>
+      </div>
+      <div class="heatmap-legend">
+        <span class="legend-label">Low ADR</span>
+        <div class="legend-gradient"></div>
+        <span class="legend-label">High ADR</span>
+      </div>
+    </section>
+
+    <!-- ── Pricing Recommendations ───────────────────────────────────────── -->
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">Dynamic Pricing Recommendations</h2>
+        <div class="legend-pills">
+          <span class="pill pill--increase">INCREASE +15%</span>
+          <span class="pill pill--hold">HOLD</span>
+          <span class="pill pill--decrease">DECREASE −10%</span>
+        </div>
+      </div>
+      <div class="table-wrap">
+        <table class="pricing-table">
+          <thead>
+            <tr>
+              <th>Month</th>
+              <th>Occupancy</th>
+              <th>Current ADR</th>
+              <th>Recommended ADR</th>
+              <th>ADR Δ</th>
+              <th>Est. Revenue Δ</th>
+              <th>Action</th>
+              <th>Rationale</th>
+            </tr>
+          </thead>
+          <tbody id="pricing-tbody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <!-- ── Price Elasticity ──────────────────────────────────────────────── -->
+    <section class="section">
+      <div class="section-header">
+        <h2 class="section-title">Price Elasticity</h2>
+      </div>
+      <div class="elasticity-card" id="elasticity-card">
+        <div class="elasticity-stat">
+          <span class="e-label">Coefficient (β)</span>
+          <span class="e-value" id="e-coef">—</span>
+        </div>
+        <div class="elasticity-stat">
+          <span class="e-label">R²</span>
+          <span class="e-value" id="e-r2">—</span>
+        </div>
+        <div class="elasticity-interp" id="e-interp"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    Hotel Revenue Intelligence · Kaggle Hotel Booking Demand Dataset · Built with Chart.js
+  </footer>
+
+  <script src="charts.js"></script>
+</body>
+</html>

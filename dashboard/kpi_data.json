@@ -1,0 +1,2102 @@
+{
+  "monthly_kpis": [
+    {
+      "month": "2015-07",
+      "total_bookings": 2776,
+      "canceled": 1259,
+      "cancellation_rate": 45.35,
+      "occupancy_rate": 54.65,
+      "adr": 109.6,
+      "total_revenue": 758339.79,
+      "revpar": 499.89
+    },
+    {
+      "month": "2015-08",
+      "total_bookings": 3889,
+      "canceled": 1598,
+      "cancellation_rate": 41.09,
+      "occupancy_rate": 58.91,
+      "adr": 114.29,
+      "total_revenue": 1137652.71,
+      "revpar": 496.57
+    },
+    {
+      "month": "2015-09",
+      "total_bookings": 5114,
+      "canceled": 2094,
+      "cancellation_rate": 40.95,
+      "occupancy_rate": 59.05,
+      "adr": 98.33,
+      "total_revenue": 1054620.67,
+      "revpar": 349.21
+    },
+    {
+      "month": "2015-10",
+      "total_bookings": 4957,
+      "canceled": 1732,
+      "cancellation_rate": 34.94,
+      "occupancy_rate": 65.06,
+      "adr": 79.49,
+      "total_revenue": 784714.88,
+      "revpar": 243.32
+    },
+    {
+      "month": "2015-11",
+      "total_bookings": 2340,
+      "canceled": 486,
+      "cancellation_rate": 20.77,
+      "occupancy_rate": 79.23,
+      "adr": 58.75,
+      "total_revenue": 346709.49,
+      "revpar": 187.01
+    },
+    {
+      "month": "2015-12",
+      "total_bookings": 2920,
+      "canceled": 973,
+      "cancellation_rate": 33.32,
+      "occupancy_rate": 66.68,
+      "adr": 71.25,
+      "total_revenue": 429521.57,
+      "revpar": 220.61
+    },
+    {
+      "month": "2016-01",
+      "total_bookings": 2248,
+      "canceled": 557,
+      "cancellation_rate": 24.78,
+      "occupancy_rate": 75.22,
+      "adr": 61.75,
+      "total_revenue": 264521.38,
+      "revpar": 156.43
+    },
+    {
+      "month": "2016-02",
+      "total_bookings": 3891,
+      "canceled": 1337,
+      "cancellation_rate": 34.36,
+      "occupancy_rate": 65.64,
+      "adr": 68.79,
+      "total_revenue": 484170.72,
+      "revpar": 189.57
+    },
+    {
+      "month": "2016-03",
+      "total_bookings": 4823,
+      "canceled": 1476,
+      "cancellation_rate": 30.6,
+      "occupancy_rate": 69.4,
+      "adr": 74.34,
+      "total_revenue": 767337.42,
+      "revpar": 229.26
+    },
+    {
+      "month": "2016-04",
+      "total_bookings": 5428,
+      "canceled": 2061,
+      "cancellation_rate": 37.97,
+      "occupancy_rate": 62.03,
+      "adr": 86.48,
+      "total_revenue": 896591.38,
+      "revpar": 266.29
+    },
+    {
+      "month": "2016-05",
+      "total_bookings": 5478,
+      "canceled": 1915,
+      "cancellation_rate": 34.96,
+      "occupancy_rate": 65.04,
+      "adr": 94.88,
+      "total_revenue": 1073277.63,
+      "revpar": 301.23
+    },
+    {
+      "month": "2016-06",
+      "total_bookings": 5292,
+      "canceled": 2096,
+      "cancellation_rate": 39.61,
+      "occupancy_rate": 60.39,
+      "adr": 104.25,
+      "total_revenue": 1144800.38,
+      "revpar": 358.2
+    },
+    {
+      "month": "2016-07",
+      "total_bookings": 4572,
+      "canceled": 1499,
+      "cancellation_rate": 32.79,
+      "occupancy_rate": 67.21,
+      "adr": 126.81,
+      "total_revenue": 1525019.05,
+      "revpar": 496.26
+    },
+    {
+      "month": "2016-08",
+      "total_bookings": 5063,
+      "canceled": 1825,
+      "cancellation_rate": 36.05,
+      "occupancy_rate": 63.95,
+      "adr": 144.16,
+      "total_revenue": 1809324.75,
+      "revpar": 558.78
+    },
+    {
+      "month": "2016-09",
+      "total_bookings": 5394,
+      "canceled": 2022,
+      "cancellation_rate": 37.49,
+      "occupancy_rate": 62.51,
+      "adr": 115.29,
+      "total_revenue": 1289642.69,
+      "revpar": 382.46
+    },
+    {
+      "month": "2016-10",
+      "total_bookings": 6203,
+      "canceled": 2514,
+      "cancellation_rate": 40.53,
+      "occupancy_rate": 59.47,
+      "adr": 93.25,
+      "total_revenue": 1072101.84,
+      "revpar": 290.62
+    },
+    {
+      "month": "2016-11",
+      "total_bookings": 4454,
+      "canceled": 1636,
+      "cancellation_rate": 36.73,
+      "occupancy_rate": 63.27,
+      "adr": 78.24,
+      "total_revenue": 688843.47,
+      "revpar": 244.44
+    },
+    {
+      "month": "2016-12",
+      "total_bookings": 3860,
+      "canceled": 1398,
+      "cancellation_rate": 36.22,
+      "occupancy_rate": 63.78,
+      "adr": 84.98,
+      "total_revenue": 657870.72,
+      "revpar": 267.21
+    },
+    {
+      "month": "2017-01",
+      "total_bookings": 3681,
+      "canceled": 1250,
+      "cancellation_rate": 33.96,
+      "occupancy_rate": 66.04,
+      "adr": 70.65,
+      "total_revenue": 512155.46,
+      "revpar": 210.68
+    },
+    {
+      "month": "2017-02",
+      "total_bookings": 4177,
+      "canceled": 1359,
+      "cancellation_rate": 32.54,
+      "occupancy_rate": 67.46,
+      "adr": 75.71,
+      "total_revenue": 663370.76,
+      "revpar": 235.4
+    },
+    {
+      "month": "2017-03",
+      "total_bookings": 4969,
+      "canceled": 1672,
+      "cancellation_rate": 33.65,
+      "occupancy_rate": 66.35,
+      "adr": 80.4,
+      "total_revenue": 884824.97,
+      "revpar": 268.37
+    },
+    {
+      "month": "2017-04",
+      "total_bookings": 5661,
+      "canceled": 2463,
+      "cancellation_rate": 43.51,
+      "occupancy_rate": 56.49,
+      "adr": 109.88,
+      "total_revenue": 1203266.1,
+      "revpar": 376.26
+    },
+    {
+      "month": "2017-05",
+      "total_bookings": 6313,
+      "canceled": 2762,
+      "cancellation_rate": 43.75,
+      "occupancy_rate": 56.25,
+      "adr": 114.84,
+      "total_revenue": 1321936.01,
+      "revpar": 372.27
+    },
+    {
+      "month": "2017-06",
+      "total_bookings": 5647,
+      "canceled": 2439,
+      "cancellation_rate": 43.19,
+      "occupancy_rate": 56.81,
+      "adr": 124.89,
+      "total_revenue": 1438490.54,
+      "revpar": 448.41
+    },
+    {
+      "month": "2017-07",
+      "total_bookings": 5313,
+      "canceled": 1984,
+      "cancellation_rate": 37.34,
+      "occupancy_rate": 62.66,
+      "adr": 140.46,
+      "total_revenue": 1817038.23,
+      "revpar": 545.82
+    },
+    {
+      "month": "2017-08",
+      "total_bookings": 4925,
+      "canceled": 1816,
+      "cancellation_rate": 36.87,
+      "occupancy_rate": 63.13,
+      "adr": 160.41,
+      "total_revenue": 1970181.6,
+      "revpar": 633.7
+    }
+  ],
+  "channel_analysis": [
+    {
+      "channel": "TA/TO",
+      "order_count": 97869,
+      "avg_adr": 101.62,
+      "total_revenue": 20809562.35,
+      "cancellation_rate": 41.03
+    },
+    {
+      "channel": "Direct",
+      "order_count": 14644,
+      "avg_adr": 106.05,
+      "total_revenue": 4325305.48,
+      "cancellation_rate": 17.46
+    },
+    {
+      "channel": "Corporate",
+      "order_count": 6677,
+      "avg_adr": 67.25,
+      "total_revenue": 827884.92,
+      "cancellation_rate": 22.08
+    },
+    {
+      "channel": "GDS",
+      "order_count": 193,
+      "avg_adr": 119.93,
+      "total_revenue": 33007.96,
+      "cancellation_rate": 19.17
+    },
+    {
+      "channel": "Undefined",
+      "order_count": 5,
+      "avg_adr": 112.7,
+      "total_revenue": 563.5,
+      "cancellation_rate": 80.0
+    }
+  ],
+  "room_type_heatmap": [
+    {
+      "room_type": "A",
+      "month": "2015-07",
+      "avg_adr": 94.88,
+      "occupancy_rate": 47.63,
+      "booking_count": 2112
+    },
+    {
+      "room_type": "A",
+      "month": "2015-08",
+      "avg_adr": 97.62,
+      "occupancy_rate": 53.82,
+      "booking_count": 3001
+    },
+    {
+      "room_type": "A",
+      "month": "2015-09",
+      "avg_adr": 95.88,
+      "occupancy_rate": 55.64,
+      "booking_count": 4403
+    },
+    {
+      "room_type": "A",
+      "month": "2015-10",
+      "avg_adr": 77.26,
+      "occupancy_rate": 61.29,
+      "booking_count": 4175
+    },
+    {
+      "room_type": "A",
+      "month": "2015-11",
+      "avg_adr": 56.66,
+      "occupancy_rate": 76.89,
+      "booking_count": 1852
+    },
+    {
+      "room_type": "A",
+      "month": "2015-12",
+      "avg_adr": 65.98,
+      "occupancy_rate": 62.84,
+      "booking_count": 2177
+    },
+    {
+      "room_type": "A",
+      "month": "2016-01",
+      "avg_adr": 60.32,
+      "occupancy_rate": 73.7,
+      "booking_count": 1787
+    },
+    {
+      "room_type": "A",
+      "month": "2016-02",
+      "avg_adr": 63.54,
+      "occupancy_rate": 61.88,
+      "booking_count": 3046
+    },
+    {
+      "room_type": "A",
+      "month": "2016-03",
+      "avg_adr": 69.56,
+      "occupancy_rate": 68.09,
+      "booking_count": 3604
+    },
+    {
+      "room_type": "A",
+      "month": "2016-04",
+      "avg_adr": 79.61,
+      "occupancy_rate": 60.31,
+      "booking_count": 3875
+    },
+    {
+      "room_type": "A",
+      "month": "2016-05",
+      "avg_adr": 86.65,
+      "occupancy_rate": 62.74,
+      "booking_count": 3945
+    },
+    {
+      "room_type": "A",
+      "month": "2016-06",
+      "avg_adr": 97.67,
+      "occupancy_rate": 57.27,
+      "booking_count": 4009
+    },
+    {
+      "room_type": "A",
+      "month": "2016-07",
+      "avg_adr": 110.78,
+      "occupancy_rate": 66.13,
+      "booking_count": 2879
+    },
+    {
+      "room_type": "A",
+      "month": "2016-08",
+      "avg_adr": 124.21,
+      "occupancy_rate": 63.23,
+      "booking_count": 3084
+    },
+    {
+      "room_type": "A",
+      "month": "2016-09",
+      "avg_adr": 105.08,
+      "occupancy_rate": 61.19,
+      "booking_count": 3677
+    },
+    {
+      "room_type": "A",
+      "month": "2016-10",
+      "avg_adr": 86.16,
+      "occupancy_rate": 58.19,
+      "booking_count": 4465
+    },
+    {
+      "room_type": "A",
+      "month": "2016-11",
+      "avg_adr": 75.41,
+      "occupancy_rate": 60.99,
+      "booking_count": 3614
+    },
+    {
+      "room_type": "A",
+      "month": "2016-12",
+      "avg_adr": 75.13,
+      "occupancy_rate": 63.43,
+      "booking_count": 2732
+    },
+    {
+      "room_type": "A",
+      "month": "2017-01",
+      "avg_adr": 64.62,
+      "occupancy_rate": 65.1,
+      "booking_count": 2857
+    },
+    {
+      "room_type": "A",
+      "month": "2017-02",
+      "avg_adr": 69.44,
+      "occupancy_rate": 66.14,
+      "booking_count": 3045
+    },
+    {
+      "room_type": "A",
+      "month": "2017-03",
+      "avg_adr": 74.31,
+      "occupancy_rate": 65.05,
+      "booking_count": 3508
+    },
+    {
+      "room_type": "A",
+      "month": "2017-04",
+      "avg_adr": 98.68,
+      "occupancy_rate": 54.75,
+      "booking_count": 3852
+    },
+    {
+      "room_type": "A",
+      "month": "2017-05",
+      "avg_adr": 105.39,
+      "occupancy_rate": 53.3,
+      "booking_count": 4366
+    },
+    {
+      "room_type": "A",
+      "month": "2017-06",
+      "avg_adr": 113.26,
+      "occupancy_rate": 53.71,
+      "booking_count": 3886
+    },
+    {
+      "room_type": "A",
+      "month": "2017-07",
+      "avg_adr": 119.39,
+      "occupancy_rate": 63.72,
+      "booking_count": 3206
+    },
+    {
+      "room_type": "A",
+      "month": "2017-08",
+      "avg_adr": 134.51,
+      "occupancy_rate": 64.06,
+      "booking_count": 2835
+    },
+    {
+      "room_type": "B",
+      "month": "2015-07",
+      "avg_adr": 94.98,
+      "occupancy_rate": 38.46,
+      "booking_count": 13
+    },
+    {
+      "room_type": "B",
+      "month": "2015-08",
+      "avg_adr": 60.63,
+      "occupancy_rate": 79.17,
+      "booking_count": 48
+    },
+    {
+      "room_type": "B",
+      "month": "2015-09",
+      "avg_adr": 64.36,
+      "occupancy_rate": 80.0,
+      "booking_count": 10
+    },
+    {
+      "room_type": "B",
+      "month": "2015-10",
+      "avg_adr": 84.7,
+      "occupancy_rate": 70.83,
+      "booking_count": 48
+    },
+    {
+      "room_type": "B",
+      "month": "2015-11",
+      "avg_adr": 91.43,
+      "occupancy_rate": 75.0,
+      "booking_count": 24
+    },
+    {
+      "room_type": "B",
+      "month": "2015-12",
+      "avg_adr": 76.45,
+      "occupancy_rate": 70.3,
+      "booking_count": 101
+    },
+    {
+      "room_type": "B",
+      "month": "2016-01",
+      "avg_adr": 68.94,
+      "occupancy_rate": 61.29,
+      "booking_count": 62
+    },
+    {
+      "room_type": "B",
+      "month": "2016-02",
+      "avg_adr": 70.67,
+      "occupancy_rate": 70.0,
+      "booking_count": 70
+    },
+    {
+      "room_type": "B",
+      "month": "2016-03",
+      "avg_adr": 79.02,
+      "occupancy_rate": 60.81,
+      "booking_count": 74
+    },
+    {
+      "room_type": "B",
+      "month": "2016-04",
+      "avg_adr": 74.23,
+      "occupancy_rate": 79.59,
+      "booking_count": 49
+    },
+    {
+      "room_type": "B",
+      "month": "2016-05",
+      "avg_adr": 110.75,
+      "occupancy_rate": 71.88,
+      "booking_count": 32
+    },
+    {
+      "room_type": "B",
+      "month": "2016-06",
+      "avg_adr": 109.89,
+      "occupancy_rate": 75.0,
+      "booking_count": 40
+    },
+    {
+      "room_type": "B",
+      "month": "2016-07",
+      "avg_adr": 83.16,
+      "occupancy_rate": 76.29,
+      "booking_count": 97
+    },
+    {
+      "room_type": "B",
+      "month": "2016-08",
+      "avg_adr": 104.75,
+      "occupancy_rate": 69.79,
+      "booking_count": 96
+    },
+    {
+      "room_type": "B",
+      "month": "2016-09",
+      "avg_adr": 100.25,
+      "occupancy_rate": 64.15,
+      "booking_count": 53
+    },
+    {
+      "room_type": "B",
+      "month": "2016-10",
+      "avg_adr": 102.83,
+      "occupancy_rate": 76.19,
+      "booking_count": 42
+    },
+    {
+      "room_type": "B",
+      "month": "2016-11",
+      "avg_adr": 76.36,
+      "occupancy_rate": 38.1,
+      "booking_count": 21
+    },
+    {
+      "room_type": "B",
+      "month": "2016-12",
+      "avg_adr": 84.65,
+      "occupancy_rate": 61.11,
+      "booking_count": 36
+    },
+    {
+      "room_type": "B",
+      "month": "2017-01",
+      "avg_adr": 82.09,
+      "occupancy_rate": 77.78,
+      "booking_count": 18
+    },
+    {
+      "room_type": "B",
+      "month": "2017-02",
+      "avg_adr": 78.07,
+      "occupancy_rate": 64.71,
+      "booking_count": 17
+    },
+    {
+      "room_type": "B",
+      "month": "2017-03",
+      "avg_adr": 86.78,
+      "occupancy_rate": 21.05,
+      "booking_count": 19
+    },
+    {
+      "room_type": "B",
+      "month": "2017-04",
+      "avg_adr": 111.6,
+      "occupancy_rate": 56.1,
+      "booking_count": 41
+    },
+    {
+      "room_type": "B",
+      "month": "2017-05",
+      "avg_adr": 112.52,
+      "occupancy_rate": 30.0,
+      "booking_count": 20
+    },
+    {
+      "room_type": "B",
+      "month": "2017-06",
+      "avg_adr": 126.65,
+      "occupancy_rate": 40.0,
+      "booking_count": 15
+    },
+    {
+      "room_type": "B",
+      "month": "2017-07",
+      "avg_adr": 88.46,
+      "occupancy_rate": 67.44,
+      "booking_count": 43
+    },
+    {
+      "room_type": "B",
+      "month": "2017-08",
+      "avg_adr": 121.72,
+      "occupancy_rate": 75.86,
+      "booking_count": 29
+    },
+    {
+      "room_type": "C",
+      "month": "2015-07",
+      "avg_adr": 137.62,
+      "occupancy_rate": 93.02,
+      "booking_count": 43
+    },
+    {
+      "room_type": "C",
+      "month": "2015-08",
+      "avg_adr": 177.46,
+      "occupancy_rate": 75.76,
+      "booking_count": 66
+    },
+    {
+      "room_type": "C",
+      "month": "2015-09",
+      "avg_adr": 98.85,
+      "occupancy_rate": 48.0,
+      "booking_count": 25
+    },
+    {
+      "room_type": "C",
+      "month": "2015-10",
+      "avg_adr": 69.79,
+      "occupancy_rate": 91.67,
+      "booking_count": 12
+    },
+    {
+      "room_type": "C",
+      "month": "2015-11",
+      "avg_adr": 52.93,
+      "occupancy_rate": 100.0,
+      "booking_count": 7
+    },
+    {
+      "room_type": "C",
+      "month": "2015-12",
+      "avg_adr": 83.55,
+      "occupancy_rate": 77.78,
+      "booking_count": 18
+    },
+    {
+      "room_type": "C",
+      "month": "2016-01",
+      "avg_adr": 58.8,
+      "occupancy_rate": 100.0,
+      "booking_count": 5
+    },
+    {
+      "room_type": "C",
+      "month": "2016-02",
+      "avg_adr": 70.98,
+      "occupancy_rate": 83.33,
+      "booking_count": 12
+    },
+    {
+      "room_type": "C",
+      "month": "2016-03",
+      "avg_adr": 47.25,
+      "occupancy_rate": 82.76,
+      "booking_count": 29
+    },
+    {
+      "room_type": "C",
+      "month": "2016-04",
+      "avg_adr": 99.57,
+      "occupancy_rate": 87.5,
+      "booking_count": 8
+    },
+    {
+      "room_type": "C",
+      "month": "2016-05",
+      "avg_adr": 77.67,
+      "occupancy_rate": 75.0,
+      "booking_count": 12
+    },
+    {
+      "room_type": "C",
+      "month": "2016-06",
+      "avg_adr": 142.71,
+      "occupancy_rate": 80.0,
+      "booking_count": 25
+    },
+    {
+      "room_type": "C",
+      "month": "2016-07",
+      "avg_adr": 185.8,
+      "occupancy_rate": 70.91,
+      "booking_count": 55
+    },
+    {
+      "room_type": "C",
+      "month": "2016-08",
+      "avg_adr": 222.67,
+      "occupancy_rate": 67.53,
+      "booking_count": 77
+    },
+    {
+      "room_type": "C",
+      "month": "2016-09",
+      "avg_adr": 174.09,
+      "occupancy_rate": 83.33,
+      "booking_count": 18
+    },
+    {
+      "room_type": "C",
+      "month": "2016-10",
+      "avg_adr": 86.37,
+      "occupancy_rate": 92.31,
+      "booking_count": 13
+    },
+    {
+      "room_type": "C",
+      "month": "2016-11",
+      "avg_adr": 80.38,
+      "occupancy_rate": 66.67,
+      "booking_count": 12
+    },
+    {
+      "room_type": "C",
+      "month": "2016-12",
+      "avg_adr": 86.84,
+      "occupancy_rate": 93.75,
+      "booking_count": 16
+    },
+    {
+      "room_type": "C",
+      "month": "2017-01",
+      "avg_adr": 52.78,
+      "occupancy_rate": 100.0,
+      "booking_count": 11
+    },
+    {
+      "room_type": "C",
+      "month": "2017-02",
+      "avg_adr": 68.54,
+      "occupancy_rate": 84.38,
+      "booking_count": 32
+    },
+    {
+      "room_type": "C",
+      "month": "2017-03",
+      "avg_adr": 78.52,
+      "occupancy_rate": 63.64,
+      "booking_count": 11
+    },
+    {
+      "room_type": "C",
+      "month": "2017-04",
+      "avg_adr": 145.01,
+      "occupancy_rate": 48.0,
+      "booking_count": 50
+    },
+    {
+      "room_type": "C",
+      "month": "2017-05",
+      "avg_adr": 108.82,
+      "occupancy_rate": 46.94,
+      "booking_count": 49
+    },
+    {
+      "room_type": "C",
+      "month": "2017-06",
+      "avg_adr": 167.51,
+      "occupancy_rate": 48.28,
+      "booking_count": 87
+    },
+    {
+      "room_type": "C",
+      "month": "2017-07",
+      "avg_adr": 204.11,
+      "occupancy_rate": 59.13,
+      "booking_count": 115
+    },
+    {
+      "room_type": "C",
+      "month": "2017-08",
+      "avg_adr": 235.1,
+      "occupancy_rate": 58.06,
+      "booking_count": 124
+    },
+    {
+      "room_type": "D",
+      "month": "2015-07",
+      "avg_adr": 123.88,
+      "occupancy_rate": 75.09,
+      "booking_count": 289
+    },
+    {
+      "room_type": "D",
+      "month": "2015-08",
+      "avg_adr": 150.18,
+      "occupancy_rate": 78.53,
+      "booking_count": 368
+    },
+    {
+      "room_type": "D",
+      "month": "2015-09",
+      "avg_adr": 98.53,
+      "occupancy_rate": 84.8,
+      "booking_count": 375
+    },
+    {
+      "room_type": "D",
+      "month": "2015-10",
+      "avg_adr": 84.96,
+      "occupancy_rate": 86.61,
+      "booking_count": 463
+    },
+    {
+      "room_type": "D",
+      "month": "2015-11",
+      "avg_adr": 63.24,
+      "occupancy_rate": 88.31,
+      "booking_count": 325
+    },
+    {
+      "room_type": "D",
+      "month": "2015-12",
+      "avg_adr": 73.44,
+      "occupancy_rate": 80.05,
+      "booking_count": 366
+    },
+    {
+      "room_type": "D",
+      "month": "2016-01",
+      "avg_adr": 64.71,
+      "occupancy_rate": 83.96,
+      "booking_count": 212
+    },
+    {
+      "room_type": "D",
+      "month": "2016-02",
+      "avg_adr": 83.4,
+      "occupancy_rate": 78.12,
+      "booking_count": 448
+    },
+    {
+      "room_type": "D",
+      "month": "2016-03",
+      "avg_adr": 87.63,
+      "occupancy_rate": 73.86,
+      "booking_count": 704
+    },
+    {
+      "room_type": "D",
+      "month": "2016-04",
+      "avg_adr": 99.82,
+      "occupancy_rate": 64.36,
+      "booking_count": 999
+    },
+    {
+      "room_type": "D",
+      "month": "2016-05",
+      "avg_adr": 108.62,
+      "occupancy_rate": 71.66,
+      "booking_count": 1002
+    },
+    {
+      "room_type": "D",
+      "month": "2016-06",
+      "avg_adr": 111.82,
+      "occupancy_rate": 70.84,
+      "booking_count": 806
+    },
+    {
+      "room_type": "D",
+      "month": "2016-07",
+      "avg_adr": 140.53,
+      "occupancy_rate": 67.98,
+      "booking_count": 940
+    },
+    {
+      "room_type": "D",
+      "month": "2016-08",
+      "avg_adr": 156.87,
+      "occupancy_rate": 63.58,
+      "booking_count": 1090
+    },
+    {
+      "room_type": "D",
+      "month": "2016-09",
+      "avg_adr": 126.43,
+      "occupancy_rate": 63.8,
+      "booking_count": 1047
+    },
+    {
+      "room_type": "D",
+      "month": "2016-10",
+      "avg_adr": 107.47,
+      "occupancy_rate": 60.62,
+      "booking_count": 1092
+    },
+    {
+      "room_type": "D",
+      "month": "2016-11",
+      "avg_adr": 91.87,
+      "occupancy_rate": 74.29,
+      "booking_count": 459
+    },
+    {
+      "room_type": "D",
+      "month": "2016-12",
+      "avg_adr": 109.17,
+      "occupancy_rate": 61.09,
+      "booking_count": 622
+    },
+    {
+      "room_type": "D",
+      "month": "2017-01",
+      "avg_adr": 90.45,
+      "occupancy_rate": 62.7,
+      "booking_count": 445
+    },
+    {
+      "room_type": "D",
+      "month": "2017-02",
+      "avg_adr": 86.01,
+      "occupancy_rate": 68.62,
+      "booking_count": 650
+    },
+    {
+      "room_type": "D",
+      "month": "2017-03",
+      "avg_adr": 91.09,
+      "occupancy_rate": 70.5,
+      "booking_count": 922
+    },
+    {
+      "room_type": "D",
+      "month": "2017-04",
+      "avg_adr": 118.68,
+      "occupancy_rate": 61.23,
+      "booking_count": 1006
+    },
+    {
+      "room_type": "D",
+      "month": "2017-05",
+      "avg_adr": 127.0,
+      "occupancy_rate": 63.53,
+      "booking_count": 1201
+    },
+    {
+      "room_type": "D",
+      "month": "2017-06",
+      "avg_adr": 134.14,
+      "occupancy_rate": 68.57,
+      "booking_count": 1015
+    },
+    {
+      "room_type": "D",
+      "month": "2017-07",
+      "avg_adr": 156.1,
+      "occupancy_rate": 62.8,
+      "booking_count": 1156
+    },
+    {
+      "room_type": "D",
+      "month": "2017-08",
+      "avg_adr": 172.54,
+      "occupancy_rate": 62.97,
+      "booking_count": 1199
+    },
+    {
+      "room_type": "E",
+      "month": "2015-07",
+      "avg_adr": 141.36,
+      "occupancy_rate": 80.0,
+      "booking_count": 180
+    },
+    {
+      "room_type": "E",
+      "month": "2015-08",
+      "avg_adr": 152.39,
+      "occupancy_rate": 70.7,
+      "booking_count": 215
+    },
+    {
+      "room_type": "E",
+      "month": "2015-09",
+      "avg_adr": 108.43,
+      "occupancy_rate": 76.54,
+      "booking_count": 179
+    },
+    {
+      "room_type": "E",
+      "month": "2015-10",
+      "avg_adr": 77.93,
+      "occupancy_rate": 85.92,
+      "booking_count": 142
+    },
+    {
+      "room_type": "E",
+      "month": "2015-11",
+      "avg_adr": 61.54,
+      "occupancy_rate": 90.59,
+      "booking_count": 85
+    },
+    {
+      "room_type": "E",
+      "month": "2015-12",
+      "avg_adr": 95.74,
+      "occupancy_rate": 77.63,
+      "booking_count": 152
+    },
+    {
+      "room_type": "E",
+      "month": "2016-01",
+      "avg_adr": 60.25,
+      "occupancy_rate": 83.64,
+      "booking_count": 110
+    },
+    {
+      "room_type": "E",
+      "month": "2016-02",
+      "avg_adr": 72.96,
+      "occupancy_rate": 88.0,
+      "booking_count": 175
+    },
+    {
+      "room_type": "E",
+      "month": "2016-03",
+      "avg_adr": 77.14,
+      "occupancy_rate": 76.39,
+      "booking_count": 233
+    },
+    {
+      "room_type": "E",
+      "month": "2016-04",
+      "avg_adr": 91.95,
+      "occupancy_rate": 70.82,
+      "booking_count": 281
+    },
+    {
+      "room_type": "E",
+      "month": "2016-05",
+      "avg_adr": 105.27,
+      "occupancy_rate": 73.25,
+      "booking_count": 243
+    },
+    {
+      "room_type": "E",
+      "month": "2016-06",
+      "avg_adr": 116.11,
+      "occupancy_rate": 73.22,
+      "booking_count": 183
+    },
+    {
+      "room_type": "E",
+      "month": "2016-07",
+      "avg_adr": 157.4,
+      "occupancy_rate": 69.73,
+      "booking_count": 294
+    },
+    {
+      "room_type": "E",
+      "month": "2016-08",
+      "avg_adr": 176.4,
+      "occupancy_rate": 68.54,
+      "booking_count": 321
+    },
+    {
+      "room_type": "E",
+      "month": "2016-09",
+      "avg_adr": 127.49,
+      "occupancy_rate": 73.05,
+      "booking_count": 282
+    },
+    {
+      "room_type": "E",
+      "month": "2016-10",
+      "avg_adr": 95.38,
+      "occupancy_rate": 70.16,
+      "booking_count": 305
+    },
+    {
+      "room_type": "E",
+      "month": "2016-11",
+      "avg_adr": 69.6,
+      "occupancy_rate": 74.66,
+      "booking_count": 221
+    },
+    {
+      "room_type": "E",
+      "month": "2016-12",
+      "avg_adr": 94.77,
+      "occupancy_rate": 70.39,
+      "booking_count": 233
+    },
+    {
+      "room_type": "E",
+      "month": "2017-01",
+      "avg_adr": 82.53,
+      "occupancy_rate": 79.56,
+      "booking_count": 181
+    },
+    {
+      "room_type": "E",
+      "month": "2017-02",
+      "avg_adr": 87.64,
+      "occupancy_rate": 76.09,
+      "booking_count": 230
+    },
+    {
+      "room_type": "E",
+      "month": "2017-03",
+      "avg_adr": 89.62,
+      "occupancy_rate": 70.95,
+      "booking_count": 327
+    },
+    {
+      "room_type": "E",
+      "month": "2017-04",
+      "avg_adr": 131.09,
+      "occupancy_rate": 60.33,
+      "booking_count": 421
+    },
+    {
+      "room_type": "E",
+      "month": "2017-05",
+      "avg_adr": 123.81,
+      "occupancy_rate": 66.91,
+      "booking_count": 405
+    },
+    {
+      "room_type": "E",
+      "month": "2017-06",
+      "avg_adr": 147.18,
+      "occupancy_rate": 62.1,
+      "booking_count": 343
+    },
+    {
+      "room_type": "E",
+      "month": "2017-07",
+      "avg_adr": 179.43,
+      "occupancy_rate": 58.64,
+      "booking_count": 428
+    },
+    {
+      "room_type": "E",
+      "month": "2017-08",
+      "avg_adr": 212.45,
+      "occupancy_rate": 60.66,
+      "booking_count": 366
+    },
+    {
+      "room_type": "F",
+      "month": "2015-07",
+      "avg_adr": 148.95,
+      "occupancy_rate": 87.8,
+      "booking_count": 41
+    },
+    {
+      "room_type": "F",
+      "month": "2015-08",
+      "avg_adr": 158.32,
+      "occupancy_rate": 83.04,
+      "booking_count": 112
+    },
+    {
+      "room_type": "F",
+      "month": "2015-09",
+      "avg_adr": 151.39,
+      "occupancy_rate": 79.1,
+      "booking_count": 67
+    },
+    {
+      "room_type": "F",
+      "month": "2015-10",
+      "avg_adr": 121.53,
+      "occupancy_rate": 91.78,
+      "booking_count": 73
+    },
+    {
+      "room_type": "F",
+      "month": "2015-11",
+      "avg_adr": 74.19,
+      "occupancy_rate": 88.89,
+      "booking_count": 27
+    },
+    {
+      "room_type": "F",
+      "month": "2015-12",
+      "avg_adr": 122.84,
+      "occupancy_rate": 81.48,
+      "booking_count": 54
+    },
+    {
+      "room_type": "F",
+      "month": "2016-01",
+      "avg_adr": 87.41,
+      "occupancy_rate": 81.82,
+      "booking_count": 33
+    },
+    {
+      "room_type": "F",
+      "month": "2016-02",
+      "avg_adr": 106.33,
+      "occupancy_rate": 81.54,
+      "booking_count": 65
+    },
+    {
+      "room_type": "F",
+      "month": "2016-03",
+      "avg_adr": 115.94,
+      "occupancy_rate": 70.83,
+      "booking_count": 96
+    },
+    {
+      "room_type": "F",
+      "month": "2016-04",
+      "avg_adr": 137.34,
+      "occupancy_rate": 64.75,
+      "booking_count": 139
+    },
+    {
+      "room_type": "F",
+      "month": "2016-05",
+      "avg_adr": 155.89,
+      "occupancy_rate": 60.45,
+      "booking_count": 134
+    },
+    {
+      "room_type": "F",
+      "month": "2016-06",
+      "avg_adr": 164.88,
+      "occupancy_rate": 69.39,
+      "booking_count": 98
+    },
+    {
+      "room_type": "F",
+      "month": "2016-07",
+      "avg_adr": 193.54,
+      "occupancy_rate": 76.28,
+      "booking_count": 156
+    },
+    {
+      "room_type": "F",
+      "month": "2016-08",
+      "avg_adr": 206.2,
+      "occupancy_rate": 69.84,
+      "booking_count": 189
+    },
+    {
+      "room_type": "F",
+      "month": "2016-09",
+      "avg_adr": 176.3,
+      "occupancy_rate": 62.2,
+      "booking_count": 164
+    },
+    {
+      "room_type": "F",
+      "month": "2016-10",
+      "avg_adr": 135.4,
+      "occupancy_rate": 64.9,
+      "booking_count": 151
+    },
+    {
+      "room_type": "F",
+      "month": "2016-11",
+      "avg_adr": 117.56,
+      "occupancy_rate": 69.86,
+      "booking_count": 73
+    },
+    {
+      "room_type": "F",
+      "month": "2016-12",
+      "avg_adr": 131.04,
+      "occupancy_rate": 66.67,
+      "booking_count": 126
+    },
+    {
+      "room_type": "F",
+      "month": "2017-01",
+      "avg_adr": 100.46,
+      "occupancy_rate": 75.79,
+      "booking_count": 95
+    },
+    {
+      "room_type": "F",
+      "month": "2017-02",
+      "avg_adr": 116.96,
+      "occupancy_rate": 67.86,
+      "booking_count": 112
+    },
+    {
+      "room_type": "F",
+      "month": "2017-03",
+      "avg_adr": 130.04,
+      "occupancy_rate": 67.37,
+      "booking_count": 95
+    },
+    {
+      "room_type": "F",
+      "month": "2017-04",
+      "avg_adr": 169.4,
+      "occupancy_rate": 64.05,
+      "booking_count": 153
+    },
+    {
+      "room_type": "F",
+      "month": "2017-05",
+      "avg_adr": 184.92,
+      "occupancy_rate": 62.5,
+      "booking_count": 128
+    },
+    {
+      "room_type": "F",
+      "month": "2017-06",
+      "avg_adr": 189.48,
+      "occupancy_rate": 60.12,
+      "booking_count": 163
+    },
+    {
+      "room_type": "F",
+      "month": "2017-07",
+      "avg_adr": 208.48,
+      "occupancy_rate": 69.46,
+      "booking_count": 167
+    },
+    {
+      "room_type": "F",
+      "month": "2017-08",
+      "avg_adr": 232.35,
+      "occupancy_rate": 66.13,
+      "booking_count": 186
+    },
+    {
+      "room_type": "G",
+      "month": "2015-07",
+      "avg_adr": 177.68,
+      "occupancy_rate": 70.59,
+      "booking_count": 68
+    },
+    {
+      "room_type": "G",
+      "month": "2015-08",
+      "avg_adr": 215.0,
+      "occupancy_rate": 71.19,
+      "booking_count": 59
+    },
+    {
+      "room_type": "G",
+      "month": "2015-09",
+      "avg_adr": 147.84,
+      "occupancy_rate": 75.0,
+      "booking_count": 44
+    },
+    {
+      "room_type": "G",
+      "month": "2015-10",
+      "avg_adr": 104.3,
+      "occupancy_rate": 70.0,
+      "booking_count": 40
+    },
+    {
+      "room_type": "G",
+      "month": "2015-11",
+      "avg_adr": 80.3,
+      "occupancy_rate": 78.57,
+      "booking_count": 14
+    },
+    {
+      "room_type": "G",
+      "month": "2015-12",
+      "avg_adr": 80.54,
+      "occupancy_rate": 85.71,
+      "booking_count": 35
+    },
+    {
+      "room_type": "G",
+      "month": "2016-01",
+      "avg_adr": 74.82,
+      "occupancy_rate": 84.38,
+      "booking_count": 32
+    },
+    {
+      "room_type": "G",
+      "month": "2016-02",
+      "avg_adr": 108.14,
+      "occupancy_rate": 75.0,
+      "booking_count": 56
+    },
+    {
+      "room_type": "G",
+      "month": "2016-03",
+      "avg_adr": 104.81,
+      "occupancy_rate": 69.12,
+      "booking_count": 68
+    },
+    {
+      "room_type": "G",
+      "month": "2016-04",
+      "avg_adr": 125.38,
+      "occupancy_rate": 69.49,
+      "booking_count": 59
+    },
+    {
+      "room_type": "G",
+      "month": "2016-05",
+      "avg_adr": 139.52,
+      "occupancy_rate": 72.83,
+      "booking_count": 92
+    },
+    {
+      "room_type": "G",
+      "month": "2016-06",
+      "avg_adr": 147.37,
+      "occupancy_rate": 59.3,
+      "booking_count": 86
+    },
+    {
+      "room_type": "G",
+      "month": "2016-07",
+      "avg_adr": 215.78,
+      "occupancy_rate": 61.67,
+      "booking_count": 120
+    },
+    {
+      "room_type": "G",
+      "month": "2016-08",
+      "avg_adr": 243.87,
+      "occupancy_rate": 63.64,
+      "booking_count": 154
+    },
+    {
+      "room_type": "G",
+      "month": "2016-09",
+      "avg_adr": 177.53,
+      "occupancy_rate": 64.71,
+      "booking_count": 119
+    },
+    {
+      "room_type": "G",
+      "month": "2016-10",
+      "avg_adr": 154.12,
+      "occupancy_rate": 55.24,
+      "booking_count": 105
+    },
+    {
+      "room_type": "G",
+      "month": "2016-11",
+      "avg_adr": 103.3,
+      "occupancy_rate": 76.92,
+      "booking_count": 39
+    },
+    {
+      "room_type": "G",
+      "month": "2016-12",
+      "avg_adr": 122.61,
+      "occupancy_rate": 68.66,
+      "booking_count": 67
+    },
+    {
+      "room_type": "G",
+      "month": "2017-01",
+      "avg_adr": 109.35,
+      "occupancy_rate": 69.09,
+      "booking_count": 55
+    },
+    {
+      "room_type": "G",
+      "month": "2017-02",
+      "avg_adr": 121.93,
+      "occupancy_rate": 76.06,
+      "booking_count": 71
+    },
+    {
+      "room_type": "G",
+      "month": "2017-03",
+      "avg_adr": 106.03,
+      "occupancy_rate": 65.38,
+      "booking_count": 78
+    },
+    {
+      "room_type": "G",
+      "month": "2017-04",
+      "avg_adr": 192.43,
+      "occupancy_rate": 58.04,
+      "booking_count": 112
+    },
+    {
+      "room_type": "G",
+      "month": "2017-05",
+      "avg_adr": 175.11,
+      "occupancy_rate": 55.93,
+      "booking_count": 118
+    },
+    {
+      "room_type": "G",
+      "month": "2017-06",
+      "avg_adr": 196.29,
+      "occupancy_rate": 46.43,
+      "booking_count": 112
+    },
+    {
+      "room_type": "G",
+      "month": "2017-07",
+      "avg_adr": 248.69,
+      "occupancy_rate": 52.38,
+      "booking_count": 147
+    },
+    {
+      "room_type": "G",
+      "month": "2017-08",
+      "avg_adr": 286.18,
+      "occupancy_rate": 54.17,
+      "booking_count": 144
+    },
+    {
+      "room_type": "H",
+      "month": "2015-07",
+      "avg_adr": 182.73,
+      "occupancy_rate": 73.08,
+      "booking_count": 26
+    },
+    {
+      "room_type": "H",
+      "month": "2015-08",
+      "avg_adr": 231.29,
+      "occupancy_rate": 55.56,
+      "booking_count": 18
+    },
+    {
+      "room_type": "H",
+      "month": "2015-09",
+      "avg_adr": 138.87,
+      "occupancy_rate": 81.82,
+      "booking_count": 11
+    },
+    {
+      "room_type": "H",
+      "month": "2015-10",
+      "avg_adr": 118.67,
+      "occupancy_rate": 75.0,
+      "booking_count": 4
+    },
+    {
+      "room_type": "H",
+      "month": "2015-11",
+      "avg_adr": 111.83,
+      "occupancy_rate": 100.0,
+      "booking_count": 6
+    },
+    {
+      "room_type": "H",
+      "month": "2015-12",
+      "avg_adr": 137.64,
+      "occupancy_rate": 52.94,
+      "booking_count": 17
+    },
+    {
+      "room_type": "H",
+      "month": "2016-01",
+      "avg_adr": 89.33,
+      "occupancy_rate": 100.0,
+      "booking_count": 7
+    },
+    {
+      "room_type": "H",
+      "month": "2016-02",
+      "avg_adr": 102.38,
+      "occupancy_rate": 61.11,
+      "booking_count": 18
+    },
+    {
+      "room_type": "H",
+      "month": "2016-03",
+      "avg_adr": 119.45,
+      "occupancy_rate": 73.33,
+      "booking_count": 15
+    },
+    {
+      "room_type": "H",
+      "month": "2016-04",
+      "avg_adr": 141.16,
+      "occupancy_rate": 61.11,
+      "booking_count": 18
+    },
+    {
+      "room_type": "H",
+      "month": "2016-05",
+      "avg_adr": 137.46,
+      "occupancy_rate": 66.67,
+      "booking_count": 18
+    },
+    {
+      "room_type": "H",
+      "month": "2016-06",
+      "avg_adr": 178.8,
+      "occupancy_rate": 57.78,
+      "booking_count": 45
+    },
+    {
+      "room_type": "H",
+      "month": "2016-07",
+      "avg_adr": 226.47,
+      "occupancy_rate": 61.29,
+      "booking_count": 31
+    },
+    {
+      "room_type": "H",
+      "month": "2016-08",
+      "avg_adr": 282.98,
+      "occupancy_rate": 50.0,
+      "booking_count": 52
+    },
+    {
+      "room_type": "H",
+      "month": "2016-09",
+      "avg_adr": 196.99,
+      "occupancy_rate": 58.82,
+      "booking_count": 34
+    },
+    {
+      "room_type": "H",
+      "month": "2016-10",
+      "avg_adr": 137.98,
+      "occupancy_rate": 50.0,
+      "booking_count": 30
+    },
+    {
+      "room_type": "H",
+      "month": "2016-11",
+      "avg_adr": 101.45,
+      "occupancy_rate": 84.62,
+      "booking_count": 13
+    },
+    {
+      "room_type": "H",
+      "month": "2016-12",
+      "avg_adr": 121.7,
+      "occupancy_rate": 72.0,
+      "booking_count": 25
+    },
+    {
+      "room_type": "H",
+      "month": "2017-01",
+      "avg_adr": 101.5,
+      "occupancy_rate": 68.42,
+      "booking_count": 19
+    },
+    {
+      "room_type": "H",
+      "month": "2017-02",
+      "avg_adr": 108.14,
+      "occupancy_rate": 75.0,
+      "booking_count": 20
+    },
+    {
+      "room_type": "H",
+      "month": "2017-03",
+      "avg_adr": 125.67,
+      "occupancy_rate": 77.78,
+      "booking_count": 9
+    },
+    {
+      "room_type": "H",
+      "month": "2017-04",
+      "avg_adr": 190.75,
+      "occupancy_rate": 40.91,
+      "booking_count": 22
+    },
+    {
+      "room_type": "H",
+      "month": "2017-05",
+      "avg_adr": 171.74,
+      "occupancy_rate": 57.69,
+      "booking_count": 26
+    },
+    {
+      "room_type": "H",
+      "month": "2017-06",
+      "avg_adr": 214.35,
+      "occupancy_rate": 53.85,
+      "booking_count": 26
+    },
+    {
+      "room_type": "H",
+      "month": "2017-07",
+      "avg_adr": 292.49,
+      "occupancy_rate": 37.25,
+      "booking_count": 51
+    },
+    {
+      "room_type": "H",
+      "month": "2017-08",
+      "avg_adr": 310.67,
+      "occupancy_rate": 52.5,
+      "booking_count": 40
+    },
+    {
+      "room_type": "L",
+      "month": "2015-07",
+      "avg_adr": 116.0,
+      "occupancy_rate": 50.0,
+      "booking_count": 4
+    },
+    {
+      "room_type": "L",
+      "month": "2015-08",
+      "avg_adr": 186.0,
+      "occupancy_rate": 100.0,
+      "booking_count": 2
+    },
+    {
+      "room_type": "P",
+      "month": "2016-02",
+      "avg_adr": 0.0,
+      "occupancy_rate": 0.0,
+      "booking_count": 1
+    },
+    {
+      "room_type": "P",
+      "month": "2016-11",
+      "avg_adr": 0.0,
+      "occupancy_rate": 0.0,
+      "booking_count": 2
+    },
+    {
+      "room_type": "P",
+      "month": "2016-12",
+      "avg_adr": 0.0,
+      "occupancy_rate": 0.0,
+      "booking_count": 3
+    },
+    {
+      "room_type": "P",
+      "month": "2017-04",
+      "avg_adr": 0.0,
+      "occupancy_rate": 0.0,
+      "booking_count": 4
+    },
+    {
+      "room_type": "P",
+      "month": "2017-08",
+      "avg_adr": 0.0,
+      "occupancy_rate": 0.0,
+      "booking_count": 2
+    }
+  ],
+  "price_elasticity": {
+    "coefficient": -0.113759,
+    "intercept": 74.8413,
+    "r_squared": 0.302,
+    "interpretation": "For every $1 increase in ADR, occupancy rate changes by -0.1138 percentage points (R\u00b2=0.3020)."
+  },
+  "pricing_recommendations": [
+    {
+      "month": "2015-07",
+      "current_adr": 109.6,
+      "occupancy_rate": 54.65,
+      "action": "DECREASE",
+      "recommended_adr": 98.64,
+      "adr_change_pct": -10.0,
+      "expected_revenue_change_pct": -10.0,
+      "estimated_revenue_delta": -75833.98,
+      "rationale": "Occupancy 54.6% < 60.0% \u2014 demand soft, stimulate bookings by lowering rates."
+    },
+    {
+      "month": "2015-08",
+      "current_adr": 114.29,
+      "occupancy_rate": 58.91,
+      "action": "DECREASE",
+      "recommended_adr": 102.86,
+      "adr_change_pct": -10.0,
+      "expected_revenue_change_pct": -10.0,
+      "estimated_revenue_delta": -113765.27,
+      "rationale": "Occupancy 58.9% < 60.0% \u2014 demand soft, stimulate bookings by lowering rates."
+    },
+    {
+      "month": "2015-09",
+      "current_adr": 98.33,
+      "occupancy_rate": 59.05,
+      "action": "DECREASE",
+      "recommended_adr": 88.5,
+      "adr_change_pct": -10.0,
+      "expected_revenue_change_pct": -10.0,
+      "estimated_revenue_delta": -105462.07,
+      "rationale": "Occupancy 59.0% < 60.0% \u2014 demand soft, stimulate bookings by lowering rates."
+    },
+    {
+      "month": "2015-10",
+      "current_adr": 79.49,
+      "occupancy_rate": 65.06,
+      "action": "HOLD",
+      "recommended_adr": 79.49,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 65.1% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2015-11",
+      "current_adr": 58.75,
+      "occupancy_rate": 79.23,
+      "action": "HOLD",
+      "recommended_adr": 58.75,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 79.2% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2015-12",
+      "current_adr": 71.25,
+      "occupancy_rate": 66.68,
+      "action": "HOLD",
+      "recommended_adr": 71.25,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 66.7% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2016-01",
+      "current_adr": 61.75,
+      "occupancy_rate": 75.22,
+      "action": "HOLD",
+      "recommended_adr": 61.75,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 75.2% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2016-02",
+      "current_adr": 68.79,
+      "occupancy_rate": 65.64,
+      "action": "HOLD",
+      "recommended_adr": 68.79,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 65.6% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2016-03",
+      "current_adr": 74.34,
+      "occupancy_rate": 69.4,
+      "action": "HOLD",
+      "recommended_adr": 74.34,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 69.4% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2016-04",
+      "current_adr": 86.48,
+      "occupancy_rate": 62.03,
+      "action": "HOLD",
+      "recommended_adr": 86.48,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 62.0% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2016-05",
+      "current_adr": 94.88,
+      "occupancy_rate": 65.04,
+      "action": "HOLD",
+      "recommended_adr": 94.88,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 65.0% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2016-06",
+      "current_adr": 104.25,
+      "occupancy_rate": 60.39,
+      "action": "HOLD",
+      "recommended_adr": 104.25,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 60.4% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2016-07",
+      "current_adr": 126.81,
+      "occupancy_rate": 67.21,
+      "action": "HOLD",
+      "recommended_adr": 126.81,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 67.2% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2016-08",
+      "current_adr": 144.16,
+      "occupancy_rate": 63.95,
+      "action": "HOLD",
+      "recommended_adr": 144.16,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 64.0% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2016-09",
+      "current_adr": 115.29,
+      "occupancy_rate": 62.51,
+      "action": "HOLD",
+      "recommended_adr": 115.29,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 62.5% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2016-10",
+      "current_adr": 93.25,
+      "occupancy_rate": 59.47,
+      "action": "DECREASE",
+      "recommended_adr": 83.92,
+      "adr_change_pct": -10.01,
+      "expected_revenue_change_pct": -10.0,
+      "estimated_revenue_delta": -107210.18,
+      "rationale": "Occupancy 59.5% < 60.0% \u2014 demand soft, stimulate bookings by lowering rates."
+    },
+    {
+      "month": "2016-11",
+      "current_adr": 78.24,
+      "occupancy_rate": 63.27,
+      "action": "HOLD",
+      "recommended_adr": 78.24,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 63.3% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2016-12",
+      "current_adr": 84.98,
+      "occupancy_rate": 63.78,
+      "action": "HOLD",
+      "recommended_adr": 84.98,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 63.8% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2017-01",
+      "current_adr": 70.65,
+      "occupancy_rate": 66.04,
+      "action": "HOLD",
+      "recommended_adr": 70.65,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 66.0% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2017-02",
+      "current_adr": 75.71,
+      "occupancy_rate": 67.46,
+      "action": "HOLD",
+      "recommended_adr": 75.71,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 67.5% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2017-03",
+      "current_adr": 80.4,
+      "occupancy_rate": 66.35,
+      "action": "HOLD",
+      "recommended_adr": 80.4,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 66.3% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2017-04",
+      "current_adr": 109.88,
+      "occupancy_rate": 56.49,
+      "action": "DECREASE",
+      "recommended_adr": 98.89,
+      "adr_change_pct": -10.0,
+      "expected_revenue_change_pct": -10.0,
+      "estimated_revenue_delta": -120326.61,
+      "rationale": "Occupancy 56.5% < 60.0% \u2014 demand soft, stimulate bookings by lowering rates."
+    },
+    {
+      "month": "2017-05",
+      "current_adr": 114.84,
+      "occupancy_rate": 56.25,
+      "action": "DECREASE",
+      "recommended_adr": 103.36,
+      "adr_change_pct": -10.0,
+      "expected_revenue_change_pct": -10.0,
+      "estimated_revenue_delta": -132193.6,
+      "rationale": "Occupancy 56.2% < 60.0% \u2014 demand soft, stimulate bookings by lowering rates."
+    },
+    {
+      "month": "2017-06",
+      "current_adr": 124.89,
+      "occupancy_rate": 56.81,
+      "action": "DECREASE",
+      "recommended_adr": 112.4,
+      "adr_change_pct": -10.0,
+      "expected_revenue_change_pct": -10.0,
+      "estimated_revenue_delta": -143849.05,
+      "rationale": "Occupancy 56.8% < 60.0% \u2014 demand soft, stimulate bookings by lowering rates."
+    },
+    {
+      "month": "2017-07",
+      "current_adr": 140.46,
+      "occupancy_rate": 62.66,
+      "action": "HOLD",
+      "recommended_adr": 140.46,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 62.7% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    },
+    {
+      "month": "2017-08",
+      "current_adr": 160.41,
+      "occupancy_rate": 63.13,
+      "action": "HOLD",
+      "recommended_adr": 160.41,
+      "adr_change_pct": 0.0,
+      "expected_revenue_change_pct": 0.0,
+      "estimated_revenue_delta": 0.0,
+      "rationale": "Occupancy 63.1% within 60.0\u201385.0% \u2014 balanced market, maintain pricing."
+    }
+  ]
+}
